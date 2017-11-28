@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="CDDarkThemeColorPrimary">#353535</color>
+    <color name="CDDarkThemeColorSecondary">#454545</color>
+    <color name="CDDarkThemeColorAccent">#0000dd</color>
+    <color name="CDDarkThemeTextColorPrimary">#eeeeee</color>
+    <color name="CDDarkThemeTextColorSecondary">#bbbbbb</color>
+
+    <color name="CDLightThemeColorPrimary">#bbbbbb</color>
+    <color name="CDLightThemeColorSecondary">#eeeeee</color>
+    <color name="CDLightThemeColorAccent">#dd0000</color>
+    <color name="CDLightThemeTextColorPrimary">#353535</color>
+    <color name="CDLightThemeTextColorSecondary">#454545</color>
+
+</resources>
