@@ -44,24 +44,24 @@ Here is where you can set styles. There are also animated versions of these func
 
 To set the style to dark
 
-    setStyleDefaultDark()
-    animateStyleDefaultDark(int duration)
+    void setStyleDefaultDark()
+    void animateStyleDefaultDark(int duration)
 
 To set the style to light
 
-    setStyleDefaultLight()
-    animateStyleDefaultLight(int duration)
+    void setStyleDefaultLight()
+    void animateStyleDefaultLight(int duration)
 
 To set a custom style
 
-    setStyleRes(int primRes, int secRes, int accRes, int primTextRes, int secTextRes)
-    setStyle(int prim, int sec,int acc, int primText, int secText)
+    void setStyleRes(int primRes, int secRes, int accRes, int primTextRes, int secTextRes)
+    void setStyle(int prim, int sec,int acc, int primText, int secText)
 
 
 To refresh the activity (note this should be done automatically when entering the activity. Use this when loading or changing a style)
 
-    repaintActivity()
-    repaintActivityAnimated(int duration)
+    void repaintActivity()
+    void repaintActivityAnimated(int duration)
     
    
 ### CAColors
