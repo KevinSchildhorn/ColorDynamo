@@ -70,7 +70,7 @@ CAColors is a singleton model. It is used to save and load existing styles.
 
 Getting singleton
 
-    getInstance(Context ctx)
+    getInstance(Context ctx)    // Note: Context is only required on first time use.
         
 Saving/Loading Styles by name
 
