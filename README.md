@@ -75,7 +75,7 @@ Getting singleton
 Saving/Loading Styles by name
 
     void saveStyle(String name)
-    boolean loadStyle(String name)
+    boolean loadStyle(String name)    // boolean returns whether it was successful or not
     
 Removing styles
 
