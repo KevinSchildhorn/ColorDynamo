@@ -1,6 +1,6 @@
 # ColorDynamo
 
-Color Dynamo is an Android library that lets developers create styles and themes that can be changed dynamically. More info coming soon.
+Color Dynamo is an Android library that lets developers create styles and themes that can be changed dynamically. The library allows setting a Primary color, Secondary color, Accent Color 
 
 In the project build.gradle:
 
