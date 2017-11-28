@@ -4,7 +4,7 @@ Color Dynamo is an Android library that lets developers create styles and themes
 
 _Note: These are not standard Android styles and themes._
 
-Backgound colors include:
+__Backgound colors include:__
 * Primary color
 * Secondary color
 * Accent Color
@@ -12,7 +12,7 @@ Backgound colors include:
 * Button Color
 * Selected color
 
-Text colors include: 
+__Text colors include:__
 * Primary Text color
 * Secondary Text color
 * Navigation Item Color
@@ -20,7 +20,7 @@ Text colors include:
 
 
 ## Installation
-#### To include the library in your project, add these lines of code.
+#### To include the library in your project, add these lines of code. (These will be changed soon)
 
 In the project build.gradle:
 
@@ -66,13 +66,18 @@ To refresh the activity (note this should be done automatically when entering th
    
 ### CAColors
 
-Get Singleton
+CAColors is a singleton model. It is used to save and load existing styles.
+
+Getting singleton
 
     getInstance(Context ctx)
-    
-    
+        
+Saving/Loading Styles by name
+
     void saveStyle(String name)
     boolean loadStyle(String name)
     
+Removing styles
+
     void removeStyle(String name)
     void removeAllStyles()
